@@ -1,0 +1,68 @@
+# 📢 Customer Complaint Analysis Dashboard
+
+This Tableau dashboard provides a structured view of **customer complaints data**, helping stakeholders track complaint volumes, identify product‑specific issues, and understand submission trends across regions and time. It is designed as a **portfolio project** to demonstrate skills in data visualization, KPI tracking, and actionable storytelling.
+
+---
+
+## 🎯 Purpose & Audience
+- **Audience:** Recruiters, hiring managers, and business stakeholders interested in operational performance and customer service analytics  
+- **Purpose:** Showcase ability to transform raw CSV complaint data into clear, interactive dashboards  
+- **Outcome:** Demonstrates proficiency in Tableau, parameter controls, and business insight communication  
+
+---
+
+## ❓ Business Questions Answered
+1. **What is the total number of complaints received?**  
+   → KPI card showing overall complaint volume  
+
+2. **Which products generate the most complaints?**  
+   → Grouped bar chart for six main product categories  
+
+3. **How have complaints trended year‑over‑year?**  
+   → Bar chart showing annual complaint counts  
+
+4. **What are the main submission methods for complaints?**  
+   → Chart breaking down request types (phone, email, web, etc.)  
+
+5. **Where are complaints coming from geographically?**  
+   → Map visualization showing state‑wise complaint distribution  
+
+6. **What is the long‑term trend in complaints?**  
+   → Line chart showing multi‑year complaint trajectory  
+
+---
+
+## 📊 Key Insights
+- **Product Issues:** Credit cards consistently drive higher complaint volumes, highlighting areas for quality improvement  
+- **Submission Channels:** Majority of complaints are submitted via digital channels, suggesting opportunities for self‑service solutions  
+- **Regional Trends:** Some states show disproportionately high complaint rates, indicating potential regional service challenges  
+- **Yearly Trend:** Complaints have shown a steady decrease over multiple years since 2017, signaling positive feedback to the proactive resolution strategies  
+
+---
+
+## ⚙️ Techniques Used
+- CSV data import and cleaning  
+- Product grouping via calculated fields  
+- Year filters and parameters for dynamic analysis  
+- Chart types: KPI card, bar chart, map, line chart  
+- Interactive filters and parameters for product groups  
+
+---
+
+## 📁 Project Structure
+Dashboards/Customer Complaint Analysis/ ├── Customer_Complaint_Analysis.twbx   # Tableau workbook ├── Dashboard_Screenshot.png           # Preview image └── README.md    
+
+---
+
+## 🔍 How to View
+1. Open `Customer_Complaint_Analysis.twbx` in Tableau Desktop or Tableau Public  
+2. Use filters and parameters to explore complaint trends by product, year, and region  
+3. Refer to the screenshot for a quick overview of dashboard features  
+
+---
+
+## 🚀 Future Improvements
+- Add complaint resolution status (resolved vs unresolved)  
+- Segment complaints by severity or priority  
+- Integrate customer satisfaction scores for correlation analysis  
+- Extend dataset to include more recent years for trend continuity  

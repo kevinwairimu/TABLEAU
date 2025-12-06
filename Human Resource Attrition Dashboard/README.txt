@@ -1,71 +1,60 @@
-# 👥 HR Attrition Analysis Dashboard
+HR Attrition Analysis Dashboard
 
-This Tableau dashboard analyzes employee attrition patterns using cleaned Excel data. It highlights key HR metrics, demographic trends, and satisfaction insights to help stakeholders understand turnover drivers and workforce dynamics.
+This project showcases the use of Tableau for HR analytics, focusing on employee attrition patterns and workforce dynamics. 
+It demonstrates both technical expertise in data preparation and business storytelling through interactive dashboards.
 
----
+🎯 Purpose & Audience
 
-## 📸 Dashboard Preview
+Audience: Recruiters, HR managers, and business stakeholders.
 
-![HR Attrition Dashboard Screenshot](Dashboard_Screenshot.png)  
-*Visual overview of attrition KPIs, department trends, age distribution, job satisfaction, and gender-based analysis.*
+Purpose: To highlight how attrition drivers can be identified and visualized, enabling HR leaders to design retention strategies and improve workforce satisfaction.
 
----
+📊 Business Questions Answered
 
-## 📊 Dashboard Highlights
+Which departments experience the highest attrition?
 
-- **Key Performance Indicators (KPIs)**  
-  - Total Employees (from Employee Number)  
-  - Attrition Count (calculated field)  
-  - Attrition Rate = Attrition Count / Total Employees (formatted as percentage)  
-  - Active Employees = Total Employees − Attrition Count  
-  - Average Age
+Does education level correlate with attrition?
 
-- **Education Filter**  
-  Enables dynamic filtering across all visualizations based on employee education level.
+How does job satisfaction vary across roles and departments?
 
-- **Attrition by Gender**  
-  Lollipop chart using dual axis: Gender on rows, Attrition Count on columns.
+What demographic trends (age, gender) influence turnover?
 
-- **Attrition by Department**  
-  Pie chart showing attrition distribution across departments (Sales, R&D, HR).
+🔑 Key Insights
 
-- **Employee Age Distribution**  
-  Frequency chart using age bins (increment of 1) to show employee count per age.
+Departmental Attrition: Sales shows the highest turnover compared to R&D and HR.
 
-- **Job Satisfaction Heatmap**  
-  Heatmap showing satisfaction ratings (1–4) across job roles and departments.
+Education Impact: Employees with life sciences degrees exhibit higher attrition rates.
 
-- **Education-wise Attrition**  
-  Bar chart comparing attrition counts across education fields (Life Sciences, Technical Degree, Medical, etc.).
+Job Satisfaction: research science & laboratory science report lower satisfaction scores, signaling retention risks.
 
----
+Demographics: Younger employees (ages 25–30) show higher attrition frequency.
 
-## ⚙️ Techniques Used
+🛠 Skills Demonstrated
 
-- Excel data cleaning and preparation  
-- Calculated fields for attrition metrics  
-- Parameter-driven bin sizing for age distribution  
-- Dual-axis lollipop chart for gender analysis  
-- Heatmap formatting for satisfaction scores  
-- Interactive filters and tooltips for HR storytelling
+Data cleaning and preparation in Excel.
 
----
+KPI logic design (Attrition Rate, Active Employees, Average Age).
 
-## 📁 Folder Structure
+Advanced Tableau techniques: dual-axis lollipop charts, parameter-driven bins, heatmaps.
 
-- `Dashboards/HR Attrition Analysis/`  
-  └── `HR_Attrition_Analysis.twbx`  
-  └── `Dashboard_Screenshot.png`  
-  └── `README.md` ← *this file*
+Interactive storytelling with filters and tooltips.
 
----
+📸 Dashboard Preview
 
-## 🔍 How to View
+ Visual overview of attrition KPIs, department trends, age distribution, job satisfaction, and gender-based analysis.
 
-1. Open `HR_Attrition_Analysis.twbx` in Tableau Desktop or Tableau Public.  
-2. Use the education filter to explore attrition patterns across demographics.  
-3. Refer to the screenshot for a quick visual overview.
+📁 Folder Structure
 
----
+Dashboards/HR Attrition Analysis/ └── HR_Attrition_Analysis.twbx └── Dashboard_Screenshot.png └── README.md ← this file
 
-💡 *This project demonstrates  ability to use Tableau for HR analytics, KPI logic, and demographic storytelling through interactive dashboards.*
+🔍 How to View
+
+Open HR_Attrition_Analysis.twbx in Tableau Desktop or Tableau Public.
+
+Use the education filter to explore attrition patterns across demographics.
+
+Refer to the screenshot for a quick visual overview.
+
+💡 Value Statement
+
+This dashboard equips HR leaders with actionable insights into attrition drivers, helping organizations reduce turnover and improve employee satisfaction. It also demonstrates the ability to translate raw data into clear, recruiter-friendly business insights.
